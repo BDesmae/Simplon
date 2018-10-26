@@ -1,0 +1,322 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+   
+	color: #4b2707;
+}
+
+.container {
+
+}
+
+
+
+
+/* Typography */
+
+h1, h2 {
+	
+}
+
+h1 {
+	font-family: 'Love Ya Like A Sister';
+	text-align: center;
+	color: #d17f38;
+	background-image: url("../images/header-divider.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	padding: 20px;
+	margin-bottom: 1px;
+}
+
+h1 em {
+	color:#4b2707;
+}
+
+h2 {
+	font-family: 'Love Ya Like A Sister';
+	color: #d17f38;
+}
+
+h3 {
+	margin: 1px;
+	font-weight: bold;
+}
+
+p.best-donut {
+	margin: 0;
+}
+
+p.lead {
+	text-align: center;
+	color: #4b2707;
+	font-size: 28px;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+p {
+	font-family: 'Open Sans';
+	margin-top: 1px;
+	
+}
+
+a:link, a:visited {
+
+	color: #d17f38;
+
+}
+
+.main nav ul li a:hover {
+	color: #4b2707;
+	background-image: url("../images/tiny-donut.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 20px;
+}
+
+hr {
+	height:35px;
+	background: url("../images/divider.png") no-repeat scroll center;
+	border: none;
+	margin-top: 47px;
+
+}
+
+
+/* Header */
+
+header nav {
+	padding: 0; 
+	margin: 0;
+	text-align: center;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	background-color: url("../images/bg-tile.gif");
+		
+}
+
+header nav ul {
+	height: 6em;
+	line-height: 6em;
+}
+
+header nav ul li {
+	display: inline-block;
+	list-style: none;
+	height: 3em;
+	line-height: 4em;
+	
+}
+
+header nav ul li a {
+	display:inline-block;
+	margin: 0 30px;
+	color: #d17f38;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+
+}
+
+header nav ul li#logo a {
+	background-image: url(../images/logo.png);
+	background-repeat: no repeat;
+	height: 95px;
+	background-position: center;
+	background-size: cover;
+	color: transparent;
+	font-size: 30px;
+}
+
+header nav ul li#logo a:hover {
+
+}
+
+
+/* Hero */
+
+#hero {
+	background-image: url("../images/bg-tile-yellow.gif");
+	width: 100%;
+}
+
+#hero .container {
+	margin-left: 20%;
+   margin-right: 20%;
+}
+
+#hero .large-ribbon {
+	background-image: url("../images/fresh-whole-ingredients.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	position: absolute;
+	margin: 220px;
+	top: -170px;
+	left: 900px;
+	height: 300px;
+	color: transparent;
+}
+
+
+/* The Whole Story */
+
+#whole-story {
+	margin-left: 20%;
+	margin-right: 20%;
+	
+}
+
+
+#story-excerpt {
+	display: inline-block;
+	width: 58%;
+}
+
+#best-donut {
+	background-image: url("../images/award.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	padding-left: 15%;
+	width: 25%;
+	
+}
+
+
+/* News & Events */
+
+#articles {
+	margin-left: 20%;
+   	margin-right: 20%;
+
+}
+
+#news-events {
+	position: relative;
+}
+
+#feature-image {
+	position: absolute;
+	top: 33px;
+	right: 250px;
+
+}
+
+#news-events article {
+	
+}
+
+#news-events article.news {
+	display: block;
+	background-image: url("../images/icon-news.png");
+	background-repeat: no-repeat;
+	padding-left: 6%;
+	width: 40%;
+	margin-bottom: 10px;
+}
+
+#news-events article.event {
+	display: block;
+	background-image: url("../images/icon-calendar.png");
+	background-repeat: no-repeat;
+	padding-left: 6%;
+	width: 40%;
+	margin-top: 10px;
+}
+
+#news-events header time {
+	color:#d17f38;
+}
+
+#news-events section.excerpt {
+
+}
+
+#news-events footer {
+
+}
+
+
+
+/* Footer */
+
+footer.main {
+	background-image: url("../images/bg-tile-brown.gif");
+	width: 100%;
+	height: 100px;
+
+}
+
+#credits a {
+	display: block;
+}
+
+footer.main a:hover {
+
+}
+
+#uncopyright, #credits {
+	color: white!important;
+	width: 100%;
+	text-align: center;
+}
+
+#uncopyright {
+	
+	background-image: url("../images/icon-recycle.png");
+	background-repeat: no-repeat;
+	background-position-x: 308px;
+	background-position-y: 6px;
+	float: left;
+	padding-left: 187px;
+	width: 40%;
+	margin-top: 21px;
+}
+#uncopyright p:first-child{
+	margin-bottom: 1%;
+}
+
+#credits {
+	
+	background-image: url("../images/icon-apple.png");
+	background-repeat: no-repeat;
+	background-position-x: 144px;
+	background-position-y: 6px;
+	float: right;
+	padding-left: 188px;
+	width: 36%;
+	margin-top: -58px;
+	text-align: left;
+}
+
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
